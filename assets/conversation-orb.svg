@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Conversation orb</title>
+  <desc id="desc">A soft abstract orb representing a spoken conversation.</desc>
+  <defs>
+    <radialGradient id="g" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#8AE3C5"/>
+      <stop offset="0.42" stop-color="#3AAE8D"/>
+      <stop offset="0.72" stop-color="#3D7CC2"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </radialGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="screen"/>
+    </filter>
+  </defs>
+  <rect width="420" height="420" fill="none"/>
+  <circle cx="210" cy="210" r="132" fill="#E7EEFB" opacity="0.68"/>
+  <path d="M207 89c57 0 110 37 124 91 14 55-19 118-70 144-51 26-118 10-153-36-35-46-34-121 5-163 23-25 56-36 94-36Z" fill="url(#g)" filter="url(#blur)"/>
+  <circle cx="175" cy="155" r="20" fill="#FFFFFF" opacity="0.22"/>
+  <path d="M131 264c35 35 101 55 158 18" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.28"/>
+</svg>
