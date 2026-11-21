@@ -900,7 +900,7 @@ h3 {
 }
 
 @media (max-width: 980px) {
-  .nav-links a:not(.nav-cta) {
+  .nav-links a:not(.nav-cta, .nav-seminars) {
     display: none;
   }
 
@@ -1236,4 +1236,16 @@ h3 {
   .insight-index {
     display: none;
   }
+}
+
+.seminar-agenda {
+  grid-template-columns: 1fr;
+}
+
+.seminar-agenda h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+#request {
+  scroll-margin-top: 6rem;
 }
